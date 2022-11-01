@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film finder</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>Film finder</h1>
+    <nav>
+        <ul class="navlist">
+            <li class="Ritem">
+                <input type="radio" id="latest_movies" class = "btn" name = "btn" value="false">
+                <label for="radbtn_new_films">Latest movies, 2014 or newer</label>
+            </li>
+            <li class="Ritem">
+                <input type="radio" id="avengers_movies" class = "btn" name = "btn" value="false">
+                <label for="avengers movies">Avengers movies</label>
+            </li>
+            <li class="Ritem">
+                <input type="radio" id="x-men_movies" class = "btn" name = "btn" value="false">
+                <label for="x-men movies">X-men movies</label>
+            </li>
+            <li class="Ritem">
+                <input type="radio" id="Princess_movies" class = "btn" name = "btn" value="false">
+                <label for="Princess movies">Princess movies</label>
+            </li>
+            <li class="Ritem">
+                <input type="radio" id="Batman_movies" class = "btn" name = "btn" value="false">
+                <label for="Batman movies">Batman movies</label>
+            </li>
+        </ul>
+    </nav>
+    <div id = "m_container" class="m_container">
+        <ul id = "movielist">
+
+        </ul>
+    </div>
+    
+    <script src="movies.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
